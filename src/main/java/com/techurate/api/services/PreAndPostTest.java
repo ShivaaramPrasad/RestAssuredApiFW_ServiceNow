@@ -27,7 +27,7 @@ public class PreAndPostTest extends BaseRESTAssured{
     @BeforeSuite
 	public  static RequestSpecification setUp() {
 		RestAssured.baseURI = "https://"+getConfig().server()+"/"+getConfig().resource();
-		RestAssured.authentication=RestAssured.basic("admin", "Shivaa.125");
+		RestAssured.authentication=RestAssured.basic("admin", "y/$oUb45eFLI");
 		return request = RestAssured.given().log().all();		
 	}
         
